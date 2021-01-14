@@ -20,13 +20,11 @@ import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
-import java.awt.*;
+
 import java.io.File;
-import java.net.URL;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Base64;
-import java.util.Date;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
